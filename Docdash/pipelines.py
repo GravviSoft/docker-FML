@@ -239,5 +239,4 @@ class GravviPipeline(object):
                                 except JSONDecodeError:
                                     pass
 
-        self.collection.insert(dict(zitems))
         return zitems

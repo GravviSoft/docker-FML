@@ -224,6 +224,7 @@ class ZYTEGRAVVIDBSpider(scrapy.Spider):
                                 pass
 
 
+
                             if processemail != "1":
                                 pass
 
