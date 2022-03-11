@@ -1,17 +1,9 @@
 # -*- coding: utf-8 -*-
 import ssl
 from json import JSONDecodeError
-
-import scrapy
-# -*- coding: utf-8 -*-
-# from pprint import pprint
-# import zipcodes
 import datetime
-import hashlib
 import itertools
 import json
-import time
-import psycopg2
 import phonenumbers
 import pymongo
 import requests
@@ -22,8 +14,6 @@ import scrapy
 from pymongo.errors import DuplicateKeyError
 
 from ..items import FbaboutItem2, Zyte
-
-
 
 class ZYTEGRAVVIDBSpider(scrapy.Spider):
     name = 'ZYTE_GRAVVI_DB'

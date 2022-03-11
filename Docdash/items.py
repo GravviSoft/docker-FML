@@ -96,3 +96,7 @@ class Zyte(scrapy.Item):
     ademail = scrapy.Field()
     adklentyapikey = scrapy.Field()
     adcadenceName = scrapy.Field()
+    
+    
+    
+    
